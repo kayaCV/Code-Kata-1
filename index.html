@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title class="shadow">Code Kata</title>
-    <h1>Code Kata</h1>
-    <p>by Jane and Carla</p>
-    <h3>Week 1</h3>   
+    <title class="shadow">Word Comparison</title>
+    <h1>Word Comparison</h1>
+    <p>Code Kata by Jane and Carla</p>
+    <!-- <h3>Week 1</h3>    "Word Comparison?"-->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form>
-        <div class="textbox-container">
-            <label for="first-string">Enter first word</label>
-            <input id="first-string" type="text">
-            <label for="second-string">Enter second word</label>
-            <input id="second-string" type="text">
-            <button id='compare-btn'>Compare words</button>
-        </div>
+    <form action="index.html" method="post">
+        <fieldset class="textbox-container">           
+                <label for="first-string">Enter first word</label>
+                <input id="first-string" name="first-string" type="text">
+                <label for="second-string">Enter second word</label>
+                <input id="second-string" name="second-string" type="text">
+        </fieldset>
+        <button type ="submit" id='compare-btn'>Compare words</button>
     </form>
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+        <script src="script2.js"></script>
 </body>
 
 <footer>
-    <p>A "Jane & Carla" project</p>
     <p>To be continued...</p>
-
 </footer>

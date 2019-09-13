@@ -7,10 +7,20 @@ h1 {
   animation-name: rotate;
   animation-duration: 1s;
 }
+
+/* h1:hover {
+  animation-name: rotate;
+  animation-duration: 2s;
+} */
 p {
   text-align: center;
   color: black;
 }
+form {
+	padding: .875em 1.875em 1.875em;
+	background: #1B9CE5;
+}
+
 body {
     background-color: turquoise;
     color: black;
@@ -30,27 +40,47 @@ input {
 	border: 2px solid #0a838b;
 	outline: none;
 }
+input[type="text"],
+legend {
+	width: 30%;
+}
 
 label {
 	color: #000;
 	display: block;
 	margin-bottom: .5em;
 }
+/* 
+fieldset {
+  background-color: rgb(214, 112, 129);
+  margin-top: 1.5em;
+} */
 
+fieldset,
 button {
 	padding: 0;
   border: none;
-  font-size: 1.25em;
 }
 
 button {
-	color: navy;
+  font-size: 1.25em;
+	color: black;
 	padding: .55em 1.25em;
-	/* background-image: linear-gradient(to top right, #00ffcd, #00feff, #e49eff, #ac8fff, #79c2ff); */
+	background-image: linear-gradient(to top right, #00ffcd,#79c2ff, #79c2ff, #00feff);
 	margin: 1.25em 0 .5em;
 	cursor: pointer;
 }
 
 button:hover {
-	background: linear-gradient(to bottom left, #00ffcd, #00feff, #e49eff, #ac8fff, #79c2ff);
+	background: linear-gradient(to bottom left, #00ffcd, #00feff, #ac8fff, #79c2ff);
+}
+/* 
+button:active {
+  animation-name: rotate;
+  animation-duration: 1s;
+} */
+
+footer {
+  font-size: 14px;
+  float: right;
 }
